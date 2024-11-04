@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.altamira.com.minitwitter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:15:5-73
+8        android:minSdkVersion="21"
+8-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:15:5-73
+9        android:targetSdkVersion="31" />
+9-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:15:5-73
+10
+11    <!-- Always include this permission -->
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:7:22-78
+13
+14    <!-- Include only if your app benefits from precise location access. -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:12:5-85
+16-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:12:22-82
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:14:5-67
+17-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:14:22-64
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:16:5-65
+18-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:16:22-62
+19
+20    <uses-feature android:name="android.hardware.camera" />
+20-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:18:5-60
+20-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:18:19-57
+21    <uses-feature android:name="android.hardware.camera.autofocus" />
+21-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:19:5-70
+21-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:19:19-67
+22    <uses-feature
+22-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:28:5-30:36
+23        android:name="android.hardware.camera.front"
+23-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:29:9-53
+24        android:required="false" />
+24-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:30:9-33
+25    <uses-feature
+25-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:36:5-38:36
+26        android:name="android.hardware.camera.flash"
+26-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:37:9-53
+27        android:required="false" />
+27-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:38:9-33
+28    <uses-feature
+28-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:39:5-41:36
+29        android:name="android.hardware.screen.landscape"
+29-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:40:9-57
+30        android:required="false" />
+30-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:41:9-33
+31    <uses-feature
+31-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:42:5-44:36
+32        android:name="android.hardware.wifi"
+32-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:43:9-45
+33        android:required="false" />
+33-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:44:9-33
+34
+35    <application
+35-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:23:5-52:19
+36        android:name="app.altamira.com.minitwitter.common.MyApp"
+36-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:24:9-37
+37        android:allowBackup="true"
+37-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:25:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.7.0] C:\Users\jazamora\.gradle\caches\transforms-3\b9e4376e452ce4f1a2bbb1fc4b534124\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+39        android:hardwareAccelerated="true"
+39-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:26:9-43
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:27:9-43
+41        android:label="@string/app_name"
+41-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:28:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:29:9-54
+43        android:supportsRtl="true"
+43-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:30:9-35
+44        android:theme="@style/Theme.MiniTwitter"
+44-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:31:9-49
+45        android:usesCleartextTraffic="true" >
+45-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:32:9-44
+46        <activity
+46-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:33:9-35:40
+47            android:name="app.altamira.com.minitwitter.ui.EscanerActivity"
+47-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:34:13-47
+48            android:exported="false" />
+48-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:35:13-37
+49        <activity
+49-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:36:9-38:40
+50            android:name="app.altamira.com.minitwitter.ui.SignUpActivity"
+50-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:37:13-46
+51            android:exported="false" />
+51-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:38:13-37
+52        <activity
+52-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:39:9-47:20
+53            android:name="app.altamira.com.minitwitter.ui.MainActivity"
+53-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:40:13-44
+54            android:exported="true" >
+54-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:41:13-36
+55            <intent-filter>
+55-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:42:13-46:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:43:17-69
+56-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:43:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:45:17-77
+58-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:45:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:48:9-51:49
+62            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+62-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:49:13-74
+63            android:clearTaskOnLaunch="true"
+63-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:49:13-45
+64            android:screenOrientation="portrait"
+64-->C:\Paquetes\Proyectos\Android\MiniTwitter\app\src\main\AndroidManifest.xml:50:13-49
+65            android:stateNotNeeded="true"
+65-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:51:13-42
+66            android:theme="@style/zxing_CaptureTheme"
+66-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:52:13-54
+67            android:windowSoftInputMode="stateAlwaysHidden" />
+67-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\jazamora\.gradle\caches\transforms-3\bf6f2b9e954ab445b234d89052385eba\transformed\zxing-android-embedded-4.1.0\AndroidManifest.xml:53:13-60
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\jazamora\.gradle\caches\transforms-3\b9086b2fec7dfe994914a2fc6acff0a9\transformed\play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\jazamora\.gradle\caches\transforms-3\b9086b2fec7dfe994914a2fc6acff0a9\transformed\play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\jazamora\.gradle\caches\transforms-3\b9086b2fec7dfe994914a2fc6acff0a9\transformed\play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\jazamora\.gradle\caches\transforms-3\b9086b2fec7dfe994914a2fc6acff0a9\transformed\play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\jazamora\.gradle\caches\transforms-3\ffe5ad23a6aae435d9c5dca1ebb855d5\transformed\play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\jazamora\.gradle\caches\transforms-3\ffe5ad23a6aae435d9c5dca1ebb855d5\transformed\play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\jazamora\.gradle\caches\transforms-3\ffe5ad23a6aae435d9c5dca1ebb855d5\transformed\play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jazamora\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jazamora\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+79            android:authorities="app.altamira.com.minitwitter.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jazamora\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jazamora\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jazamora\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jazamora\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jazamora\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jazamora\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jazamora\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jazamora\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+87        </provider>
+88    </application>
+89
+90</manifest>

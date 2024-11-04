@@ -1,0 +1,1 @@
+app.altamira.com.minitwitter
